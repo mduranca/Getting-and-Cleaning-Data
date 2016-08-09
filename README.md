@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 The script run_analysis is implemented through an initial preparation of the data and five subsequent steps. These steps follow the indications given in the assignment.
@@ -44,3 +45,7 @@ the corresponding Tidy1's variable names.
 
 
 
+=======
+# Getting-and-Cleaning-Data
+This repository corresponds to the Getting and Cleaning Data Course Project
+>>>>>>> 3be41fc9773004e65c48b36aad92cdc726f12fd3
