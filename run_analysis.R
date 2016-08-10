@@ -37,14 +37,14 @@ Xtest$rn <- rownames(Xtest)
 
 mergeTest <- join_all(list(subjTest, yTest, Xtest), by = "rn", type = "full")
 drops <- c("rn")
-mergeTest <- mergeTest[ , !(names(mergeTest) %in% drops)]
+mergeTest <- mergeTest[ , !(names(mergeTest) %in% drops)]   ## it eliminates the column Row.names from mergeTest
 
 yTrain$rn <- rownames(yTrain)
 subjTrain$rn <- rownames(subjTrain)
 Xtrain$rn <- rownames(Xtrain)
 
 mergeTrain <- join_all(list(subjTrain, yTrain, Xtrain), by = "rn", type = "full")
-mergeTrain <- mergeTrain[ , !(names(mergeTrain) %in% drops)]
+mergeTrain <- mergeTrain[ , !(names(mergeTrain) %in% drops)]   ## it eliminates the column Row.names from mergeTrain
 
 mergeAll <- merge(mergeTrain,  mergeTest,  all = TRUE)
 mergeAllOrd <- mergeAll[order(mergeAll$subject),]
