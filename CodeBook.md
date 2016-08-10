@@ -84,13 +84,27 @@ and is expressed in rad/sec. AccJerk and GyroJerk mean rate of change of acceler
 it has three components along X, Y, and Z axis. Finally, Mag is magnitude, calculated using the Euclidean norm.
 
 The signals were measured on a group of 30 volunteers performing 6 different activities. Each volunteer is assigned an integer number from 1 to 30, which is named as ‘subject’. 
-Each ‘activity’ is an integer number from 1 to 6 that is replaced during the cleaning process by a descriptive character string. The correspondence between subjects/activities and 
+Each ‘activity’ is an integer number from 1 to 6 that is replaced during the cleaning process by the six descriptive character strings:
+
+"WALKING"
+
+"WALKING UPSTAIRS"
+
+"WALKING DOWNLOAD"
+
+"SITTING"
+
+"STANDING"
+
+"LAYING"
+
+The correspondence between subjects/activities and 
 variables is given in the files with prefixes ‘subject’, ‘y’, and X, belonging to the UCIHARDataset.  
 
 The tidy dataset is a data frame that contains the averaged value of the previous variables, taken over the rows corresponding to equal subject and activity. In the tidy dataset 
 the prefixes t and f were replaced by Time and FFT, respectively, and the variables were reduced only to Mean and Standard Deviation (Std) values. The first and second columns of 
 the tidy dataset contain the subject and the activity, respectively. The rest of the columns are the variables corresponding to the averaged mean and standard deviation of the 
-signals. The variable names in the data frame has the following scheme (without dashes):
+signals. The variable names in the data frame has the following scheme (without the dashes):
 
 AVER. - Time or FFT  -  Variable  -  Mean or Std  -  X, Y or Z
 
