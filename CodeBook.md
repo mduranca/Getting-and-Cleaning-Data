@@ -36,6 +36,7 @@ The variables that appear in the original dataset from UCIHARDataset (http://arc
 
 -Angle between two vectors.
 
+
 These variables were taken on the following signals:
 
 -tBodyAcc-XYZ
@@ -106,7 +107,7 @@ the prefixes t and f were replaced by Time and FFT, respectively, and the variab
 the tidy dataset contain the subject and the activity, respectively. The rest of the columns are the variables corresponding to the averaged mean and standard deviation of the 
 signals. The variable names in the data frame has the following scheme (without the dashes):
 
-AVER. - Time or FFT  -  Variable  -  Mean or Std  -  X, Y or Z
+AVER. - Time or FFT  -  Signal  -  Mean or Std  -  X, Y or Z
 
 
 
