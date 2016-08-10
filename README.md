@@ -7,6 +7,7 @@ where ‘subject’ indicates each of 30 people performing a total of 6 activiti
 first two ones in the final tidy dataset, respectively.
 
 Step 1. Merging.
+
 First, the three datasets from ‘test’ are merged together, and the same is done with the three datasets from ‘train’, producing the 
 data frames mergeTest and mergeTrain. Secondly, mergeTest and mergeTrain are joined in the data frame mergeAll. This last data frame 
 is ordered according to subject (in ascending order) and renamed as mergeAllOrd.
