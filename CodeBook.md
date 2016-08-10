@@ -1,6 +1,4 @@
-The code book describes the variables, the data, and any transformations or work that have been performed to clean up the data.
-
-The variables that appear in the original dataset from UCIHARDataset (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) are the following: 
+This code book describes the variables, the data, and the transformations and work that have been performed to clean up the original dataset taken from UCIHARDataset (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and whose variables are the following: 
 
 -Mean value.
 
