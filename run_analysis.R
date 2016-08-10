@@ -50,7 +50,7 @@ mergeAll <- merge(mergeTrain,  mergeTest,  all = TRUE)
 mergeAllOrd <- mergeAll[order(mergeAll$subject),]
 
 ## 2.Extracting
-textString <- paste(readLines("features.txt"), collapse=" ")    ## textString is a single string.
+textString <- paste(readLines("features.txt"), collapse = " ")    ## textString is a single string.
 splitString <- strsplit(textString, " ")      
 splitString <- splitString[[1]]
 ## Next loop selects variables containing only means or standard deviations.
@@ -106,7 +106,7 @@ my.names <- c("subject", "activity",  my.names)
 Extract <- mergeAllOrd[, my.names]
 
 ## 3.Naming activities
-textString2 <- paste(readLines("activity_labels.txt"), collapse=" ")    
+textString2 <- paste(readLines("activity_labels.txt"), collapse = " ")    
 splitString2 <- strsplit(textString2, " ")
 seq <- seq(2,length(splitString2[[1]]),2)
 activity <- splitString2[[1]][seq]
