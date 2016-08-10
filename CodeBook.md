@@ -1,44 +1,81 @@
 The code book describes the variables, the data, and any transformations or work that have been performed to clean up the data.
 
 The variables that appear in the original dataset from UCIHARDataset (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) are the following: 
+
 -Mean value.
+
 -Standard Deviation.
+
 -Median Absolute Deviation. 
+
 -Largest value in array.
+
 -Smallest value in array.
+
 -Signal magnitude area.
+
 -Energy measure. Sum of the squares divided by the number of values. 
+
 -Interquartile range. 
+
 -Signal Entropy.
+
 -Autorregresion coefficients with Burg order equal to 4.
+
 -Correlation coefficient between two signals.
+
 -Index of the frequency component with largest magnitude.
+
 -Mean Frequency.
+
 -Skewness of the frequency domain signal. 
+
 -Kurtosis of the frequency domain signal. 
+
 -Energy of a frequency interval within the 64 bins of the FFT of each window.
+
 -Angle between two vectors.
 
 These variables were taken on the following signals:
+
 -tBodyAcc-XYZ
+
 -tGravityAcc-XYZ
+
 -tBodyAccJerk-XYZ
+
 -tBodyGyro-XYZ
+
 -tBodyGyroJerk-XYZ
+
 -tBodyAccMag
+
 -tGravityAccMag
+
 -tBodyAccJerkMag
+
 -tBodyGyroMag
+
 -tBodyGyroJerkMag
+
 -fBodyAcc-XYZ
+
 -fBodyAccJerk-XYZ
+
 -fBodyGyro-XYZ
+
 -fBodyAccMag
+
 -fBodyAccJerkMag
+
 -fBodyGyroMag
+
 -fBodyGyroJerkMag
+
 -fBodyBodyAccJerkMag
+
 -fBodyBodyGyroMag
+
 -fBodyBodyGyroJerkMag
 
 where ‘t’ and ‘f’ indicate that the signals belong to the time domain and the frequency domain, respectively. The frequency domain is obtained from the time domain through the 
