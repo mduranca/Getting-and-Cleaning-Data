@@ -39,5 +39,5 @@ Using the list var.names, the variables from V3 are labeled in a descriptive man
 Step 5. Creating the second dataset.
 
 The second dataset results from averaging the first one (Tidy1) respecting to subject and activity. It is composed mainly by a ‘for’ 
-double loop that calculates each row averaging the columns having equal subject and activity. The second dataset is named Tidy2 and its column names (from the third to the last) are built adding the prefix AVER. in front of the corresponding Tidy1’s variable names. Finally, the Tidy2 dataset is saved as both the Tidy2.RDta and the text file Tidy.txt.
+double loop that calculates each row averaging the columns having equal subject and activity. The second dataset is named Tidy2 and its column names (from the third to the last) are built adding the prefix AVER. in front of the corresponding Tidy1’s variable names. Finally, the Tidy2 dataset is saved as both the Tidy2.RData and the text file Tidy.txt.
 
