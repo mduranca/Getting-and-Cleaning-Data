@@ -3,8 +3,7 @@ indications given in the assignment.
 
 The initial preparation consists in reading the six available datasets (three for each of the two groups named ‘test’ and ‘train’), 
 and labeling the variable V1 in y_test and y_train as ‘subject’ and the variable V1 in subject_test and subject_train as ‘activity’, 
-where ‘subject’ indicates each of 30 people performing a total of 6 activities during the experiment. These variables will be the 
-first two ones in the final tidy dataset, respectively.
+where ‘subject’ indicates each of 30 people performing a total of 6 activities (reflected in 'activity') during the experiment. These variables will be the first two ones in the final tidy dataset, respectively.
 
 Step 1. Merging.
 
