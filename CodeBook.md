@@ -1,81 +1,80 @@
 This code book describes the variables, the data, and the transformations and work that have been performed to clean up the original dataset taken from UCIHARDataset (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and whose variables are the following: 
 
--Mean value.
+  -Mean value.
 
--Standard Deviation.
+  -Standard Deviation.
 
--Median Absolute Deviation. 
+  -Median Absolute Deviation. 
 
--Largest value in array.
+  -Largest value in array.
 
--Smallest value in array.
+  -Smallest value in array.
 
--Signal magnitude area.
+  -Signal magnitude area.
 
--Energy measure. Sum of the squares divided by the number of values. 
+  -Energy measure. Sum of the squares divided by the number of values. 
 
--Interquartile range. 
+  -Interquartile range. 
 
--Signal Entropy.
+  -Signal Entropy.
 
--Autorregresion coefficients with Burg order equal to 4.
+  -Autorregresion coefficients with Burg order equal to 4.
 
--Correlation coefficient between two signals.
+  -Correlation coefficient between two signals.
 
--Index of the frequency component with largest magnitude.
+  -Index of the frequency component with largest magnitude.
 
--Mean Frequency.
+  -Mean Frequency.
 
--Skewness of the frequency domain signal. 
+  -Skewness of the frequency domain signal. 
 
--Kurtosis of the frequency domain signal. 
+  -Kurtosis of the frequency domain signal. 
 
--Energy of a frequency interval within the 64 bins of the FFT of each window.
+  -Energy of a frequency interval within the 64 bins of the FFT of each window.
 
--Angle between two vectors.
-
+  -Angle between two vectors.
 
 These variables were taken on the following signals:
 
--tBodyAcc-XYZ
+  -tBodyAcc-XYZ
 
--tGravityAcc-XYZ
+  -tGravityAcc-XYZ
 
--tBodyAccJerk-XYZ
+  -tBodyAccJerk-XYZ
 
--tBodyGyro-XYZ
+  -tBodyGyro-XYZ
 
--tBodyGyroJerk-XYZ
+  -tBodyGyroJerk-XYZ
 
--tBodyAccMag
+  -tBodyAccMag
 
--tGravityAccMag
+  -tGravityAccMag
 
--tBodyAccJerkMag
+  -tBodyAccJerkMag
 
--tBodyGyroMag
+  -tBodyGyroMag
 
--tBodyGyroJerkMag
+  -tBodyGyroJerkMag
 
--fBodyAcc-XYZ
+  -fBodyAcc-XYZ
 
--fBodyAccJerk-XYZ
+  -fBodyAccJerk-XYZ
 
--fBodyGyro-XYZ
+  -fBodyGyro-XYZ
 
--fBodyAccMag
+  -fBodyAccMag
 
--fBodyAccJerkMag
+  -fBodyAccJerkMag
 
--fBodyGyroMag
+  -fBodyGyroMag
 
--fBodyGyroJerkMag
+  -fBodyGyroJerkMag
 
--fBodyBodyAccJerkMag
+  -fBodyBodyAccJerkMag
 
--fBodyBodyGyroMag
+  -fBodyBodyGyroMag
 
--fBodyBodyGyroJerkMag
+  -fBodyBodyGyroJerkMag
 
 where ‘t’ and ‘f’ indicate that the signals belong to the time domain and the frequency domain, respectively. The frequency domain is obtained from the time domain through the 
 Fast Fourier Transform (FFT). BodyAcc and GravityAcc are body and gravity accelerations, respectively, measured in standard gravity units (g). BodyGyro is body angular velocity 
